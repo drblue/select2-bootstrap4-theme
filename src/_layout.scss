@@ -137,7 +137,7 @@
 
   .select2-results__group {
     display: list-item;
-    padding: $select2-bootstrap4-padding-y $select2-bootstrap4-padding-x / 2;
+    padding: $select2-bootstrap4-padding-y $select2-bootstrap4-padding-x * .5;
     color: $select2-bootstrap4-disabled-color;
   }
 
@@ -147,9 +147,9 @@
     width: 1em;
     height: 1em;
     padding: 0;
-    margin: subtract($select2-bootstrap4-line-height * 1em, 1em) / 2 0 0;
+    margin: subtract($select2-bootstrap4-line-height * 1em, 1em) * .5 0 0;
     font-weight: 700;
-    line-height: (12em / 16);
+    line-height: (12em * .0625);
     color: $select2-bootstrap4-color;
     background: darken($select2-bootstrap4-bg, 10%) escape-svg($select2-bootstrap4-selection-clear-icon) center no-repeat !important; // stylelint-disable-line declaration-no-important
     border-radius: 100%;

@@ -16,7 +16,7 @@
       position: relative;
       display: inline-block;
       padding: 0 5px 0 21px;
-      margin: $select2-bootstrap4-padding-y $select2-bootstrap4-padding-x / 2 $select2-bootstrap4-padding-y 0;
+      margin: $select2-bootstrap4-padding-y $select2-bootstrap4-padding-x * .5 $select2-bootstrap4-padding-y 0;
       color: color-yiq($select2-bootstrap4-selection-choice-bg);
       vertical-align: top;
       cursor: pointer;
